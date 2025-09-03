@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎶 Favorite Music Videos 🎵</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #d5d959, #cdca71);
+            font-family: Arial, sans-serif; 
+            background-image: url("background.jpg");
+            background-size: cover;      
+            background-position: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 28px;
+            margin: 0;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .videos-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+
+        .video-cell {
+            width: 180px;
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .video-cell:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .video-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 20px 10px 10px;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+            font-family: Arial, sans-serif; 
+        }
+
+        .music {
+            background-image: url('andito.jpg?height=250&width=180');
+        }
+
+        .taylor {
+            background-image: url('taylor.jpg?height=250&width=180');
+        }
+
+        .coldplay {
+            background-image: url('coldplay.jpg?height=250&width=180');
+        }
+
+        .dolls {
+            background-image: url('dolls.jpg?height=250&width=180');
+        }
+
+        .statue {
+            background-image: url('statue.jpg?height=250&width=180');
+        }
+
+        .pagtingin {
+            background-image: url('pagtingin.jpg?height=250&width=180');
+        }
+
+        .dinamuli {
+            background-image: url('dinamuli.jpg?height=250&width=180');
+        }
+        
+        .multo {
+            background-image: url('multo.jpg?height=250&width=180');
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎶 Favorite Music Videos 🎵</h1>
+        </div>
+        
+        <table class="videos-table">
+            <tr>
+                
+                <td class="video-cell music">
+                    <a href="https://youtu.be/FRTvF-OR4M4?si=vRUE4AstZDux87x2" target="_blank" class="video-link">
+                        <div class="video-title">Ikaw Sana and Nandito Ako (Official Video)</div>
+                    </a>
+                </td>
+                <td class="video-cell taylor">
+                    <a href="https://youtu.be/w-FkV0EM_CU?si=ZOinL4anV6mcVMd2" target="_blank" class="video-link">
+                        <div class="video-title">Taylor Swift - So High School (Official Video)</div>
+                    </a>
+                </td>
+                <td class="video-cell coldplay">
+                    <a href="https://youtu.be/yKNxeF4KMsY?si=Gbm22mm9UneX5UtB" target="_blank" class="video-link">
+                        <div class="video-title">Coldplay - Yellow (Official Video)</div>
+                    </a>
+                </td>
+                <td class="video-cell dolls">
+                    <a href="https://youtu.be/NdYWuo9OFAw?si=FvE4EUJIWNV9327T" target="_blank" class="video-link">
+                        <div class="video-title">Goo Goo Dolls – Iris (Official Music Video)</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="video-cell statue">
+                    <a href="https://youtu.be/br6i9f0G7Kw?si=hbRSp1ol-iOAFKST" target="_blank" class="video-link">
+                        <div class="video-title">Lil Eddie - Statue (Official Video)</div>
+                    </a>
+                </td>
+                <td class="video-cell pagtingin">
+                    <a href="https://youtu.be/P5ktQh3sWZk?si=Xf75NK7Jyr0xsYyL" target="_blank" class="video-link">
+                        <div class="video-title">Ben&Ben - Pagtingin (Official Music Video)</div>
+                    </a>
+                </td>
+                <td class="video-cell dinamuli">
+                    <a href="https://youtu.be/rgHHJkzn5TU?si=fZIUGLc9RRZxa3VZ" target="_blank" class="video-link">
+                        <div class="video-title">Di Na Muli (Official) - The Itchyworms</div>
+                    </a>
+                </td>
+                <td class="video-cell multo">
+                    <a href="https://youtu.be/CcS1fsuT10M?si=MV7Kbc7kN7c6qimD" target="_blank" class="video-link">
+                        <div class="video-title">Multo - Cup of Joe (Official Music Video)</div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
